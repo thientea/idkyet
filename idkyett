@@ -1,0 +1,62 @@
+#Colors 
+BLACK   = '\033[30m'
+RED     = '\033[31m'
+GREEN   = '\033[32m'
+YELLOW  = '\033[33m'
+BLUE    = '\033[34m'
+MAGENTA = '\033[35m'
+CYAN    = '\033[36m'
+WHITE   = '\033[37m'
+RESET   = '\033[39m'
+
+
+#Zodiac Signs
+CAPRICORN = (GREEN + "Your Zodiac Sign: CAPRICORN \n Element: Earth \n Ruling Planet: Saturn")
+AQUARIUS =  (WHITE + "Your Zodiac Sign: AQUARIUS \n Element: Air \n Ruling Planet: Uranus")
+PISCES = (BLUE + "Your Zodiac Sign: PISCES \n Element: Water \n Ruling Planet: Neptune")
+ARIES = (RED + "Your Zodiac Sign: ARIES \n Element: Fire \n Ruling Planet: Mars")
+TAURUS = (GREEN + "Your Zodiac Sign: TAURUS \n Element: Earth \n Ruling Planet: Venus")
+CANCER = (BLUE + "Your Zodiac Sign: CANCER \n Element: Water \n Ruling Planet: IDK tbh")
+LEO = (RED + "Your Zodiac Sign: LEO \n Element: Fire \n Ruling Planet: Sun")
+VIRGO = (GREEN + "Your Zodiac Sign: VIRGO \n Element: Earth \n Ruling Planet: Mercury")
+LIBRA = (WHITE + "Your Zodiac Sign: LIBRA \n Element: Air \n Ruling Planet: Venus")
+SCORPIO = (BLUE + "Your Zodiac Sign: SCORPIO \n Element: Water \n Ruling Planet: Pluto, Mars")
+SAGITTARIUS = ("Your Zodiac Sign: SAGITTARIUS \n Element: Fire \n Ruling Planet: Jupter")
+##########################################################################
+
+print(RED + "Welcome to my Horoscope thingy ")
+print(" 1. Capricorn (Dec 22-Jan 19) \n 2. Aquarius (Jan 10-Feb 18) \n 3. Pisces (Feb 19-Mar 20) \n 4. Aries (Mar 21-Apr 19) \n 5. Taurus (Apr 20-May 20) \n 6. Gemini(May 21-Jun 20) \n 7. Cancer(Jun 21- Jul 21) \n 8. Leo(Jul 23-Aug 22) \n 9. Virgo (Aug 23-Sep 22) \n 10. Libra (Sep 23-Oct 23) \n 11. Scorpio (Oct 24-Nov 21) \n 12. Sagittarius (Nov 22-Dec 21) \n")
+print(input)
+
+
+sign = int(input("Enter the digit of your Zodiac Sign: "))
+
+if sign == 1:
+    print(CAPRICORN)
+elif sign == 2:
+    print(AQUARIUS)
+elif sign == 3:
+    print(PISCES)
+elif sign == 4:
+    print(ARIES)
+elif sign == 5:
+    print(TAURUS)
+elif sign == 6:
+    print(GEMINI)
+elif sign == 7:
+    print(CANCER)
+elif sign == 8:
+    print(LEO)
+elif sign == 9:
+    print(VIRGO)
+elif sign == 10:
+    print(LIBRA)
+elif sign == 11:
+    print(SCORPIO)
+else:
+    print(SAGITTARIUS)
+
+
+
+
+
