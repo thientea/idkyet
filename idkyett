@@ -16,6 +16,7 @@ AQUARIUS =  (WHITE + "Your Zodiac Sign: AQUARIUS \n Element: Air \n Ruling Plane
 PISCES = (BLUE + "Your Zodiac Sign: PISCES \n Element: Water \n Ruling Planet: Neptune")
 ARIES = (RED + "Your Zodiac Sign: ARIES \n Element: Fire \n Ruling Planet: Mars")
 TAURUS = (GREEN + "Your Zodiac Sign: TAURUS \n Element: Earth \n Ruling Planet: Venus")
+GEMINI = ("Your Zodiac Sign: GEMINI")
 CANCER = (BLUE + "Your Zodiac Sign: CANCER \n Element: Water \n Ruling Planet: IDK tbh")
 LEO = (RED + "Your Zodiac Sign: LEO \n Element: Fire \n Ruling Planet: Sun")
 VIRGO = (GREEN + "Your Zodiac Sign: VIRGO \n Element: Earth \n Ruling Planet: Mercury")
